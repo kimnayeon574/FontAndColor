@@ -67,16 +67,16 @@
             this.tsbtnColor});
             this.tlsMenu.Location = new System.Drawing.Point(0, 0);
             this.tlsMenu.Name = "tlsMenu";
-            this.tlsMenu.Size = new System.Drawing.Size(390, 31);
+            this.tlsMenu.Size = new System.Drawing.Size(390, 27);
             this.tlsMenu.TabIndex = 1;
             this.tlsMenu.Text = "toolStrip1";
             // 
             // rtbText
             // 
             this.rtbText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbText.Location = new System.Drawing.Point(0, 31);
+            this.rtbText.Location = new System.Drawing.Point(0, 27);
             this.rtbText.Name = "rtbText";
-            this.rtbText.Size = new System.Drawing.Size(390, 249);
+            this.rtbText.Size = new System.Drawing.Size(390, 253);
             this.rtbText.TabIndex = 2;
             this.rtbText.Text = resources.GetString("rtbText.Text");
             // 
@@ -86,8 +86,9 @@
             this.tsbtnFont.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnFont.Image")));
             this.tsbtnFont.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnFont.Name = "tsbtnFont";
-            this.tsbtnFont.Size = new System.Drawing.Size(29, 28);
+            this.tsbtnFont.Size = new System.Drawing.Size(29, 24);
             this.tsbtnFont.Text = "toolStripButton1";
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
@@ -95,8 +96,9 @@
             this.tsbtnColor.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnColor.Image")));
             this.tsbtnColor.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnColor.Name = "tsbtnColor";
-            this.tsbtnColor.Size = new System.Drawing.Size(29, 28);
+            this.tsbtnColor.Size = new System.Drawing.Size(29, 24);
             this.tsbtnColor.Text = "toolStripButton1";
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // Form1
             // 
